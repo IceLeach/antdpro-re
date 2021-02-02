@@ -28,4 +28,7 @@ export default defineConfig({
     type: 'none',
     exclude: [],
   },
+  outputPath: 'build',
+  publicPath: 'https://IceLeach.github.io/antdpro-re/',
+  history: { type: 'hash' },
 });
